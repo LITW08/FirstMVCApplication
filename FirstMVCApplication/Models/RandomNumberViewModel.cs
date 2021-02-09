@@ -5,8 +5,9 @@ using System.Web;
 
 namespace FirstMVCApplication.Models
 {
-    public class IndexPageViewModel
+    public class RandomNumberViewModel
     {
-        public int RandomNumber { get; set; }
+        public int Number { get; set; }
+        public string RandomString { get; set; }
     }
 }

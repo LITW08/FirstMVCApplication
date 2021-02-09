@@ -94,10 +94,13 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BasicController.cs" />
+    <Compile Include="Controllers\DataController.cs" />
+    <Compile Include="Controllers\NorthwindController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\IndexPageViewModel.cs" />
+    <Compile Include="Models\NorthwindViewModel.cs" />
+    <Compile Include="Models\RandomNumberViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +108,8 @@
     <None Include="packages.config" />
     <Content Include="Views\Basic\Index.cshtml" />
     <Content Include="Views\Basic\MyOtherPage.cshtml" />
+    <Content Include="Views\Data\RandomNumberDemo.cshtml" />
+    <Content Include="Views\Northwind\Products.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
